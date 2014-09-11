@@ -1,3 +1,4 @@
+<!--Modified by Mai Bide on 9/10/14-->
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="app.js"></script>
 </head>
-<body>
+<mmbodmmmy>
 	<div class="container">
 		<div class="intro">
 			<div class="left stack-image"></div>
@@ -27,7 +28,7 @@
 			</form>
 			<h3>View the Top Answerers for a Tag</h3>
 			<form class="inspiration-getter" onsubmit="return false;">
-				<input type="text" placeholder="e.g., jQuery" name="answerers" size="30"  required>
+				<input type="text" placeholder="e.g., jQuery, JSONP, AJAX" name="topic" size="30"  required>
 				<input type="submit" value="Submit">
 			</form>
 		</div>
@@ -46,6 +47,17 @@
 				<dd class="viewed"></dd>
 			<dt>Asker</dt>
 				<dd class="asker"></dd>
+		</dl>
+		<!--Code added by MaiBide-->
+		<dl class="result answer">
+			<dt class="answer-title">Answer Record</dt>
+				<dd class="answer-text"><a href="" target="_blank"></a></dd>
+			<dt>Score</dt>
+				<dd class="score"></dd>
+			<dt>Posted</dt>
+				<dd class="posted"></dd>
+			<dt>Answerer</dt>
+				<dd class="answerer"></dd>
 		</dl>
 		<div class="error">
 			<p>Uh-oh! Something went wrong with your request. Here's what we know:</p>

@@ -33,11 +33,20 @@
 .inspiration { 
 	margin-left: 3em;
 }
-
+.search-results{
+	margin-top: 30px;
+	font-size: 	30px;
+	color: blue;
+}
 .result {
 	border: 1px solid black;
 	padding: 5px;
 	margin: 0 auto 1em auto;
+}
+.answer-title{
+	text-align: center;
+	font-size: 	20px;
+	color: blue;
 }
 
 .error {
